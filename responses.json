@@ -1,0 +1,160 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello!",
+          "Hi!",
+          "Hey there!",
+          "Hi, how can I assist you?",
+          "Good day to you!"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "Goodbye!",
+          "See you soon!",
+          "Have a great day!",
+          "Bye! Come back again!"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Glad to help!",
+          "No problem!",
+          "Anytime!"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, I don't understand.",
+          "Can you provide more information?",
+          "I'm not sure what you mean."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "options",
+        "patterns": [
+          "How you could help me?",
+          "What you can do?",
+          "What help you provide?",
+          "How you can be helpful?",
+          "What support is offered"
+        ],
+        "responses": [
+          "I can assist with general queries, provide information, and more.",
+          "I offer support for various tasks and queries.",
+          "Let me know what you need help with."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "programming_languages",
+        "patterns": [
+          "Which programming language should I learn?",
+          "What language is best for beginners?",
+          "Can you recommend a programming language?",
+          "I want to start coding, which language is easy?"
+        ],
+        "responses": [
+          "Python is great for beginners and versatile.",
+          "JavaScript is good for web development.",
+          "Java is widely used and has a strong community."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "technology_trends",
+        "patterns": [
+          "What are the latest technology trends?",
+          "Tell me about current tech trends.",
+          "What's new in technology?",
+          "Any emerging technologies to watch?"
+        ],
+        "responses": [
+          "AI and machine learning are hot trends.",
+          "Blockchain technology is gaining traction.",
+          "IoT and edge computing are evolving rapidly."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "funny_jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Can you make me laugh?",
+          "I need a funny joke",
+          "Share a joke with me"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "How do functions break up? They stop calling each other!",
+          "I'm reading a book on anti-gravity. It's impossible to put down!"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "book_recommendation",
+        "patterns": [
+          "Recommend a good book",
+          "I want to read, suggest a book",
+          "Any book recommendations?",
+          "Tell me about a great book"
+        ],
+        "responses": [
+          "If you like sci-fi, try 'Dune' by Frank Herbert.",
+          "For fantasy fans, 'The Name of the Wind' by Patrick Rothfuss is excellent.",
+          "Looking for non-fiction? 'Sapiens' by Yuval Noah Harari is thought-provoking."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "music_suggestions",
+        "patterns": [
+          "Recommend music",
+          "I need music suggestions",
+          "Any good songs or artists?",
+          "Tell me about popular music"
+        ],
+        "responses": [
+          "Check out 'Blinding Lights' by The Weeknd.",
+          "If you like rock, try 'Bohemian Rhapsody' by Queen.",
+          "For a chill vibe, listen to 'Riptide' by Vance Joy."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  
